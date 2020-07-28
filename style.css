@@ -1,0 +1,111 @@
+/** 
+* Reset - Formata todos elementos
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+/** 
+* DESAFIO 1
+*/
+body.capa {
+    background: url('img/background.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+section#capitulo-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+section#capitulo-1 h1 {
+    font-size: 72px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+section#capitulo-1 h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+section#capitulo-1 button {
+    padding: 10px 25px;
+    background: #000;
+    color: #fff;
+    border: none;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+/** 
+* DESAFIO 2
+*/
+.container {
+    margin: 0 auto!important;
+    max-width: 800px;
+}
+
+section#desafio-2 {
+    padding: 20px 0;
+}
+section#desafio-2 h1 {
+    font-size: 46px;
+    margin: 15px 0;
+}
+
+/**
+*  DESAFIO 3
+*/
+section#desafio-3 {
+    padding: 20px 0;
+}
+
+section#desafio-3 h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+section#desafio-3 .item {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    transition: all linear 0.3s;
+}
+
+section#desafio-3 .item:hover {
+    background: tomato;
+}
+
+section#desafio-3 .item img {
+    width: 150px
+}
+
+section#desafio-3 .item h5 {
+    font-size: 18px;
+    text-align: center; /* left | center | right  */
+    margin: 15px 0;
+    text-decoration: underline;
+    transition: all linear 0.3s;
+}
+
+section#desafio-3 .item h5:hover {
+    color: #fff;
+}
+
+section#desafio-3 .item p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 14px; 
+}
